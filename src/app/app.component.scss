@@ -1,0 +1,35 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style pour le header */
+app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; 
+  background-color: #f2f3f5; 
+  height: 60px;
+}
+
+/* Style pour le menu */
+app-menu {
+  position: fixed;
+  top: 60px; 
+  bottom: 0;
+  left: 0;
+  width: 250px; 
+  z-index: 1020; 
+  background-color: #343a40; 
+  overflow-y: auto; 
+}
+
+.content {
+  margin-top: 56px; 
+  margin-left: 250px; 
+  padding: 1rem;
+}
